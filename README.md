@@ -1,17 +1,15 @@
-# electron-vue-webpack
-Got tired finding Electron/Vue2/Webpack2 templates with fancy add-ons you don't really need?
+# Vue-electron-template
+Got tired finding Electron/Vue2/Webpack2/Element templates with fancy add-ons you don't really need?
 
 Give a try to this minimal template with very few dependencies for quick development and prototyping.
-
-![w10 sample](https://cloud.githubusercontent.com/assets/11739632/19222705/0f8c55fc-8e5f-11e6-97fa-0d3943f43358.png)
 
 ## Install
 ``` bash
 # Clone the repository once
-$ git clone https://github.com/pastahito/electron-vue-webpack
+$ https://github.com/shengxihu/Vue-electron-template/
 
 # Go into the repository (rename it as you wish)
-$ cd electron-vue-webpack
+$ cd Vue-electron-template
 
 # Install the 7 only dependencies once
 $ npm install
@@ -43,13 +41,9 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
 
         ├── src/
 
-            ├── assets/                 # Images go here
-                ├── electron.png
-                ├── vue.png
-                ├── webpack.png
-
+            ├── assets/                 # assets go here
+                
             ├── components/             # Webcomponents go here
-                ├── Hello.vue
 
             ├── App.vue                 # Vue app. Your global css can go here
             ├── entry.js                # App entry. Your global js can go here
