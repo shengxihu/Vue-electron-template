@@ -33,23 +33,15 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
 
 ## Template structure
 ```
-├── electron-vue-webpack/               # Your project's name
-
+├── Vue-electron-template/               # Your project's name
     ├── app/
-
         ├── build/                      # Webpack will bundle your css/js/img here
-
         ├── src/
-
-            ├── assets/                 # assets go here
-                
+            ├── assets/                 # assets go here   
             ├── components/             # Webcomponents go here
-
             ├── App.vue                 # Vue app. Your global css can go here
             ├── entry.js                # App entry. Your global js can go here
-
         ├── index.html                  # Single Page Application HTML, it only uses build's files
-
     ├── main.js                         # Electron app init
     ├── package.json
     ├── webpack.config.js               # Minimal webpack setup
