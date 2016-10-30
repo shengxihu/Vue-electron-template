@@ -46,5 +46,7 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
     ├── package.json
     ├── webpack.config.js               # Minimal webpack setup
 ```
+## reference && link
 
+[electron-vue-webpack](https://github.com/pastahito/electron-vue-webpack)
 
